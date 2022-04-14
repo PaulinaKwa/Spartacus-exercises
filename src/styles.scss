@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+// $skipComponentStyles: (cx-searchbox);
+
+$styleVersion: 4.3;
+@import "~@spartacus/styles/index";
+
+:root {
+  body {
+    // --cx-color-dark: blue;
+  }
+}
+
+// body {
+//   cx-link {
+//     @extend %cx-link !optional;
+//     a {
+//       color: red;
+//       // font-size: 20px;
+//     }
+//   }
+//   cx-footer-navigation {
+//     color: red;
+//   }
+
+//   header .SiteLogo  {
+//     width: 450px;
+//   }
+// }
+
+@import "styles/spartacus/user.scss";
+@import "styles/spartacus/storefinder.scss";
+@import "styles/spartacus/product.scss";
+@import "styles/spartacus/cart.scss";
+@import "styles/spartacus/order.scss";
+@import "styles/spartacus/checkout.scss";

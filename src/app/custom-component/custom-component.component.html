@@ -1,3 +1,4 @@
 <ng-container *ngIf="product$ | async as product">
   <h1>{{ product.priceRange?.maxPrice }}</h1>
+  <a [routerLink]="{ cxRoute: 'cart' } | cxUrl"></a>
 </ng-container>
